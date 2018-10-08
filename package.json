@@ -1,0 +1,41 @@
+{
+  "name": "Gachapon",
+  "version": "1.0.0",
+  "description": "Gachapon",
+  "author": "https://cherrychain.cc/",
+  "engines": {
+    "node": "9.2.0",
+    "npm": "5.6.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "foobar": "^1.1.0",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.4.0",
+    "sass-loader": "^7.0.1",
+    "truffle-contract": "^3.0.5",
+    "truffle-hdwallet-provider": "0.0.5",
+    "vue-loading-spinner": "^1.0.11",
+    "vue-scrollto": "^2.11.0",
+    "web3": "^1.0.0-beta.34",
+    "zeppelin-solidity": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
